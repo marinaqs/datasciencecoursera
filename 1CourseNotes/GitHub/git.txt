@@ -1,0 +1,6 @@
+#to initiate a git repository locally
+git init
+
+#to see git configuration
+git config --list
+

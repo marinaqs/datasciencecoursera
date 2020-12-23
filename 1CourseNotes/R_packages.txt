@@ -1,0 +1,20 @@
+#installing packages
+install.packages("packagename")
+#If you want to install multiple packages at once, you can do so by using a character vector, like: 
+install.packages(c("ggplot2", "devtools", "lme4"))
+
+#what packages are installed
+installed.packages()
+library()
+
+#updating packages
+old.packages()
+update.packages()
+install.packages("packagename")
+
+#how to go to the functions help page to know what the funcion is for and how to use it
+help()
+help(package  = "ggplot2)
+
+#command that lists your R version, operating system, and loaded packages
+sessionInfo()
